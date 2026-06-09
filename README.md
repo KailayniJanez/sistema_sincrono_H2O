@@ -106,7 +106,7 @@ pthread_cond_wait(&H_cond, &mutex);  // Atômico: unlock + bloqueio
 ```
 
 ## 📈 Resultados
-- A versão final apresenta:
+A versão final apresenta:
 - Sincronização correta - sem condições de corrida
 - Formação segura - garantia de moléculas H₂O
 - Deadlock-free - todas as threads são eventualmente acordadas
