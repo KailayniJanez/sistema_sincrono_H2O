@@ -1,0 +1,22 @@
+```gitignore
+# Executáveis compilados
+h2o
+h2o_final
+*.exe
+*.out
+
+# Arquivos objeto
+*.o
+*.obj
+
+# Backups
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
